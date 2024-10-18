@@ -51,6 +51,7 @@ def agregar(producto, cantidad, precio_unit, precio_total, forma_pago, tipo_clie
     limpiar()
 
 
+#hola como va
 def borrar(tree):
     confirma = messagebox.askquestion("ADVERTENCIA", "¿Está seguro qué desea borrar el registro?")
     if confirma == 'no':
